@@ -45,7 +45,7 @@ namespace HighestOcurring
         }
         static void Main(string[] args)
         {
-            string Sentence = "abc abc cde cde abc cde";
+            string Sentence = "abc abc cde cde abc cde ef ef ef";
             var returnWords = GetMostFrequent(GetWords(Sentence));
             Console.WriteLine("Most frequent words are");
             foreach (var word in returnWords)

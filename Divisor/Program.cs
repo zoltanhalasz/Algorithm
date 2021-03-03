@@ -11,11 +11,10 @@ namespace Divisor
             
             int gcd = 1;
             int max = Math.Max(a, b);
-            int min = Math.Min(a, b);
-            min = Math.Min(min, max / 2);
+            int min = Math.Min(a, b);           
             for (int k = min; k>0; k --)
             {
-                if (max % k == 0)
+                if (max % k == 0 && min % k == 0)
                 {
                     gcd = k;
                     break;
@@ -31,7 +30,7 @@ namespace Divisor
         }
         static void Main(string[] args)
         {
-            int a = 139999, b = 18666666;
+            int a = 156, b = 6900;
             Console.WriteLine("GCD " + Gcd(a, b));
             Console.WriteLine("LCM " + Lcm(a, b));
         }

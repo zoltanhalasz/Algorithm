@@ -21,8 +21,8 @@ namespace Anagram
         }
         static void Main(string[] args)
         {
-            string s1 = "abc", s2 = "bca";
-            Console.WriteLine($"{s1} and {s2} are anagram pairs {isAnagram(s1,s2)}");
+            string s1 = "pal apostol", s2 = "palast lopo";
+            Console.WriteLine($"{s1} and {s2} are anagram pairs? {isAnagram(s1,s2)}");
         }
     }
 }

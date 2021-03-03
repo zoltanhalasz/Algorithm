@@ -22,8 +22,8 @@ namespace Factorial
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(FactorialRecursive(5));
-            Console.WriteLine(FactorialNonRec(5));
+            Console.WriteLine(FactorialRecursive(9));
+            Console.WriteLine(FactorialNonRec(9));
         }
     }
 }
